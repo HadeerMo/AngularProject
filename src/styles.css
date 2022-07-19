@@ -1,0 +1,21 @@
+.bg-green {
+    background-color: #1abc9c;
+}
+.text-green{
+    color: #1abc9c;
+}
+.w-40{
+    width: 22%;
+}
+.line{
+    width: 40%;
+    height: .25rem;
+    background-color: white;
+    border-radius: 5px;
+}
+.open-item{
+    overflow-y: hidden;
+}
+.close-item{
+    overflow-y: auto;
+}

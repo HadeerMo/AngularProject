@@ -1,0 +1,36 @@
+<section class="py-5">
+    <div class="text-center text-white">
+        <h2>ABOUT</h2>
+        <div class="w-40 mt-3 mb-4 d-flex mx-auto">
+            <div class="line mt-3"></div>
+            <i class="fa-solid fa-star mx-2 fs-2"></i>
+            <div class="line mt-3"></div>
+        </div>
+    </div>
+    <div class="row justify-content-center text-white w-60 mx-auto">
+        <div class=" fs-5 col-lg-6 py-2">
+            <p>Freelancer is a free bootstrap theme created by Route. The download includes the complete source files
+                including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        </div>
+        <div class=" fs-5 col-lg-6 py-2">
+            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your
+                email address to the contact form to make it fully functional!</p>
+        </div>
+    </div>
+
+    <div class="row w-100 px-5 my-3">
+        
+        <div *ngFor="let recipe of recipes" class="col-lg-4 my-4 item">
+            <div class="mx-auto">
+                
+                <img [src]="recipe.image_url" width="100%" class="rounded">
+                <div class="text-center bg-white py-2 info">
+                    <h3 class="text-cu px-2 fs-5 fw-bold">{{recipe.title}}</h3>
+                    <p class="text-muted">{{recipe.publisher}}</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</section>

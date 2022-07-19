@@ -1,0 +1,80 @@
+.portfolio-header,
+.itemInfo {
+    color: #2c3e50;
+}
+
+.line {
+    background-color: #2c3e50;
+}
+
+.portfolio-header h2,
+.itemInfo h2 {
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+
+.layer {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    width: 95%;
+    left: 2.5%;
+    right: 2.5%;
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+
+.plus-icon {
+    font-size: 5rem;
+}
+
+.item:hover .layer {
+    opacity: 1;
+}
+
+.outlayer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow-y: auto;
+    display: none;
+}
+
+.itemInfo {
+    border-radius: 8px;
+    width: 90%;
+    background-color: white;
+}
+
+.itemInfo img {
+    border-radius: 8px;
+}
+
+.itemInfo p {
+    width: 60%;
+    margin: auto;
+}
+
+.itemInfo button {
+    padding: 0.25rem 1rem;
+    font-size: 1.1rem;
+    background-color: rgba(26, 188, 156, 0.9);
+}
+
+.itemInfo button:hover {
+    background-color: #159a80;
+}
+
+.exit {
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgba(26, 188, 156, 0.9);
+}
